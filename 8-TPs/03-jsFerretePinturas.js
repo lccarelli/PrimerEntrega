@@ -13,7 +13,7 @@ function FahrenheitCentigrados() {
 
 function CentigradosFahrenheit() {
     let temperatura = parseFloat(document.getElementById("txtIdTemperatura").value);
-    let calculo = ((temperatura * 9 / 5) + 32).toFixed(2);
+    let calculo = ((temperatura * 9) / 5 + 32).toFixed(2);
 
     let message = `${temperatura} centigrados son ${calculo} Fahrenheit`;
 
