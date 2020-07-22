@@ -40,11 +40,11 @@ function Materiales() {
     const cemento = 2;
     const cal = 3;
     //Formulas matemáticas
-    let diametro = (2 * idLargo) + (2 * idAncho)
+    let area = (idAncho * idLargo);
     let radio = (idRadio) * (2 * pi);
     //Operaciones totales
-    let totalDiametroCemento = (diametro / cemento).toFixed(2);
-    let totalDiametroCal = (diametro / cal).toFixed(2);
+    let totalDiametroCemento = (area / cemento).toFixed(2);
+    let totalDiametroCal = (area / cal).toFixed(2);
     let totalRadioCemento = (radio / cemento).toFixed(2);
     let totalRadioCal = (radio / cal).toFixed(2);
     //Mostrar por pantalla
